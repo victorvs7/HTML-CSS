@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midias em html </title>
+</head>
+<body>
+    <h1>imagem dinamica</h1>
+    <p>tente abrir site em vairios dispositivos diferentes ou simplesmente aumente e diminue o seu tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/imagem-p.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/imagem-m.jpg" type="image/jpg">
+        <img src="imagens/imagem-G.jpg" alt="imagem grande">
+    </picture>
+
+    <h1>reproduzindo audio </h1>
+    <p>vamos aprender a reproduzir audios em HTML5</p>
+
+    <audio src="midia/guanacast-33.mp3" controls></audio>
+    <!--mp3 wav ogg-->
+
+    <audio>
+        <source src="midia/Day y Noche.mp3" type="audio/mpeg">
+    </audio>
+</body>
+</html>
