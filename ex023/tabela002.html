@@ -28,12 +28,19 @@
         .num{
             text-align: right;
         }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
     </style>
 </head>
 <body>
     <!--
         anatomia para tabelas grandes
          TABLE
+         CAPTION
             THEAD
                 tr, td, th
             TBODY
@@ -43,10 +50,11 @@
     -->
     <h1>uso de tabelas grtandes</h1>
     <table>
+        <CAption>POPULAÇÃO DAUNIDADES FADERATIVAS</CAption>
         <thead>
             <tr>
-                <th>estado</th>
-                <th>população</th>
+                <th scope="col">estado</th>
+                <th scope="col" style="width: 50px;">população</th>
             </tr>
         </thead>
         <tbody>
@@ -73,7 +81,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <td>total de habitantes</td>
+                <th scope="row"> de habitantes</th>
                 <td class="num"><strong>000000000</strong></td>
             </tr>
         </tfoot>
