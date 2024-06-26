@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>exercicios de tabelas</h1>
+    <table>
+        <caption>
+            filmes favoritos
+        </caption>
+        <thead>
+            <th>grupo</th>
+            <th>nomes</th>
+            <th colspan="3">filme</th>
+
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3">mulheres</th>
+                <td>ana maria</td>
+                <td>alien</td>
+                <td>rambo</td>
+                <td>vingadores</td>
+            </tr>
+            <tr>
+                <td>beatriz</td>
+                <td>hulk</td>
+                <td>inception</td>
+                <td>batman</td>
+            </tr>
+            <tr>
+                <td>claudia melo</td>
+                <td>oblivion</td>
+                <td>big hero</td>
+                <td>matrix</td>
+            </tr>
+            <tr>
+                <th rowspan="3">homems</th>
+                <td>brudo mendonça</td>
+                <td>intocaveis</td>
+                <td>amnesia</td>
+                <td>gladiador</td>
+            </tr>
+            <tr>
+                <td>daniel lourenço</td>
+                <td>wall-e</td>
+                <td>oldboy</td>
+                <td>toy story</td>
+            </tr>
+            <tr>
+                <td>fabiano mota</td>
+                <td>star war 5</td>
+                <td>taxi driver</td>
+                <td>dangal</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
